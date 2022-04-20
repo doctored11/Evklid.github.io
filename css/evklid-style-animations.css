@@ -88,6 +88,50 @@
              stroke: var(--main-accent-color);
              cursor: pointer;
          }
+         /* accardion( */
+
+         .qwestions__item {
+             position: relative;
+         }
+
+         .ac-trigger {
+             max-width: 85%;
+         }
+
+         .ui-state-active~.qwestion__img-block .qwestion__svg {
+             transform: rotate(-45deg);
+             transition: transform 0.4s 0.05s;
+         }
+
+         .qwestion__img-block {
+             position: absolute;
+             top: 0;
+             right: 0;
+             width: 100px;
+             height: 100%;
+             display: flex;
+             flex-direction: column;
+             align-content: center;
+             justify-content: center;
+             align-items: center;
+         }
+
+         .qwestion__svg {}
+
+         .ac-header::after {
+             position: absolute;
+             top: 0;
+             left: 0;
+             content: "";
+             width: 100%;
+             height: 100%;
+             background-color: transparent;
+             display: inline-block;
+         }
+
+         .ui-accordion-content {
+             display: block;
+         }
          /*steps*/
 
          .work__button-step:hover {

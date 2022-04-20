@@ -7,6 +7,7 @@ let menuLinks = menu.querySelectorAll('.header__list');
 
 
 
+
 // let tabBtn = document.querySelectorAll('.tabs__btn');
 // let tabsItem = document.querySelectorAll('.tabs-content');
 // tabsBtn.forEach(function(element) {
@@ -39,6 +40,7 @@ document.querySelectorAll('.tabs__btn').forEach(function(tabsBtn) {
 
 
 });
+
 
 
 
@@ -92,5 +94,7 @@ const swiper = new Swiper('.swiper', {
 
 $(".accordion").accordion({
     heightStyle: "content",
-    active: 2
+    collapsible: "true",
+    active: 1,
+
 });

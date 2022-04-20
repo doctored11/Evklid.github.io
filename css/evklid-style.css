@@ -623,8 +623,10 @@ body .tabs-content:nth-child(n) {
     /*background: no-repeat url(../img/+х.svg);
     background-position: right;*/
     /* font-family: 'MonseratBold'; */
-    height: 112px;
+    /* height: 112px; */
     align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .qwestions__item h3 {
