@@ -79,15 +79,54 @@
              background-color: var(--main-dark-color);
          }
 
-         .header__search:hover rect {
+         .header__search:hover > rect {
              fill: var(--main-accent-color);
              cursor: pointer;
          }
 
-         .header__search:hover path {
+         .header__search:hover > path {
              stroke: var(--main-accent-color);
              cursor: pointer;
          }
+         .header__search-close:hover   {
+          cursor: pointer;
+         }
+         .header__search-close:hover > svg > rect
+         {
+           fill: var(--main-accent-color);
+          cursor: pointer;
+        }
+        .header__active-serch:hover rect {
+          fill: var(--main-dark-color);
+          cursor: pointer;
+
+        }
+        .header__active-serch:hover{
+          cursor: pointer;
+        }
+        .search-hidden{
+
+
+          transform: translateY(-155px);
+
+
+          transition: transform 0.4s ease, visibility 0.1s;
+          visibility: hidden;
+        }
+
+        .header__active-serch:hover  path {
+          stroke:  var(--main-dark-color);
+          cursor: pointer;
+
+        }
+
+        .header__search-close:hover > svg > circle
+        {
+            stroke: var(--main-accent-color);
+          cursor: pointer;}
+
+
+
          /* accardion( */
 
          .qwestions__item {
@@ -616,6 +655,15 @@
              html body .frame-block {
                  padding: 0 15px;
              }
+             .header__search-block{
+               right: 3%;
+               width: 85%;
+
+             }
+             .header__active-serch{
+               display: none;
+             }
+
              .main-block__title {
                  font-weight: 800;
                  font-size: 20px;

@@ -83,6 +83,51 @@ img {
     align-items: center;
     display: none;
 }
+.header__active-serch{
+  width: 24px;
+  height: 24px;
+}
+.header__active-serch rect {
+  fill: var(--main-accent-color);
+
+}
+
+.header__active-serch   path {
+  stroke: var(--main-accent-color);
+
+}
+.search__input{
+
+  width: 75%;
+  border: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--ico-color);
+
+}
+.header__search-block{
+  visibility:visible;
+  padding: 20px 15px;
+  width: 540px;
+  height: 60px;
+  position: absolute;
+  /* /* top: 25%;  - для положения в header */
+  top:120%;
+  right: 8%;
+
+  z-index: 4 !important;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+
+
+  background-color: #fff;
+  box-shadow:  0 0 10px 1px var(--ico-color) ;
+  border-radius: 25px;
+
+  transition: transform 0.4s ease, visibility 0.1s;
+}
 
 .header__burger-ico {
     display: flex;
@@ -109,7 +154,8 @@ img {
     padding: 0 75px;
     max-width: 1920px;
     min-height: 100px;
-}
+    /* position: relative; */
+  }
 
 .header {
     max-height: var(--header-hight);
@@ -134,11 +180,13 @@ img {
 }
 
 .header__navigation {
+
     display: flex;
     flex-wrap: nowrap;
     /* min-width: 817px; */
     padding: 35px 0 35px;
     justify-content: space-between;
+    /* position: relative; */
 }
 
 .header__list {
@@ -180,6 +228,8 @@ img {
     border: none;
     background-color: transparent;
     padding: 0;
+    z-index: 3;
+    position: relative;
 }
 
 .header__logo {

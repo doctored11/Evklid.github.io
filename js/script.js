@@ -1,6 +1,8 @@
 let burger = document.querySelector('.header__burger-ico');
 let menu = document.querySelector('.header__drop-down-menu ');
 let menuLinks = menu.querySelectorAll('.header__list');
+let search  = document.querySelectorAll('.search');
+let searchBlock  = document.querySelector('.header__search-block ');
 
 
 
@@ -69,6 +71,14 @@ menuLinks.forEach(function(el) {
 
     })
 });
+search.forEach(function(s){
+  s.addEventListener('click',
+    function() {
+        searchBlock.classList.toggle('search-hidden');
+    }
+
+);
+});
 
 
 
@@ -98,3 +108,5 @@ $(".accordion").accordion({
     active: 1,
 
 });
+// поиск
+
