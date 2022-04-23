@@ -136,6 +136,11 @@
          .ac-trigger {
              max-width: 85%;
          }
+         .qwestion__svg {
+          transform: rotate(0deg);
+          transition: transform 0.3s 0.05s;
+
+         }
 
          .ui-state-active~.qwestion__img-block .qwestion__svg {
              transform: rotate(-45deg);
@@ -453,15 +458,15 @@
                  font-weight: 700;
                  font-size: 20px;
                  line-height: 32px;
-                 max-width: 761px;
-                 max-height: 70px;
+                 max-width: 85%;
+                 /* max-height: 70px; */
                  height: auto;
              }
              .qwestions .heading {
                  margin-bottom: 31px;
              }
              .qwestions__item {
-                 max-height: 130px;
+                 /* max-height: 130px; */
                  min-height: 110px;
                  padding: 30px 0;
                  height: auto;
@@ -587,9 +592,7 @@
              .work .heading {
                  margin-bottom: 45px;
              }
-             .qwestions__item h3 {
-                 max-width: 575px;
-             }
+
              .footer__btn {
                  margin-bottom: 0;
              }

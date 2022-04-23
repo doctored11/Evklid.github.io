@@ -252,7 +252,8 @@ img {
     top: 0;
     left: 0;
     z-index: -1;
-    background: url(../img/sl2.jpg);
+    background: url(../img/sl2.jpg) ;
+    background-size: cover;
 }
 
 .swiper-slide:nth-child(1n) {
@@ -261,16 +262,19 @@ img {
 }
 
 .swiper-slide:nth-child(3) {
-    background: url(../img/sl3.jpg);
+    background: url(../img/sl3.jpg) ;
+    background-size: cover;
 }
 
 .swiper-slide:nth-child(4) {
     background-color: #222222;
-    background: url(../img/sl1.jpg);
+    background: url(../img/sl1.jpg) ;
+    background-size: cover;
 }
 
 .swiper-slide:nth-child(5) {
-    background: url(../img/sl2.jpg);
+    background: url(../img/sl2.jpg) ;
+    background-size: cover;
 }
 
 .stop-scroll {
