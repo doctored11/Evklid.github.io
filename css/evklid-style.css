@@ -111,8 +111,8 @@ img {
   height: 60px;
   position: absolute;
   /* /* top: 25%;  - для положения в header */
-  top:120%;
-  right: 8%;
+  top:20%;
+  right: 3.5%;
 
   z-index: 4 !important;
   display: flex;
@@ -120,13 +120,15 @@ img {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
+  transform-origin: 100% 50%;
+  transform: scale(1,1);
 
 
   background-color: #fff;
   box-shadow:  0 0 10px 1px var(--ico-color) ;
   border-radius: 25px;
 
-  transition: transform 0.4s ease, visibility 0.1s;
+  transition: visibility 0.1s, transform  1s 0.1s ease;
 }
 
 .header__burger-ico {
@@ -254,6 +256,23 @@ img {
     z-index: -1;
     background: url(../img/sl2.jpg) ;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.swiper-pagination{
+  width: 300px;
+  height: 50px;
+  color: #222222;
+  z-index: 5;
+
+}
+.swiper-pagination-bullet{
+background-color: #ffffff8b;
+width: 16px;
+height: 16px;
+margin-right: 20px;
+z-index: 8;
 }
 
 .swiper-slide:nth-child(1n) {
