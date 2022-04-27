@@ -93,6 +93,9 @@ const swiper = new Swiper('.swiper', {
       type: 'bullets',
       clickable: true
     },
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,},
 
 
 

@@ -101,6 +101,10 @@
           cursor: pointer;
 
         }
+        b, .header__burger-ico, .header__search-close, .header__active-serch{
+          border: none;
+          background-color: transparent ;
+        }
         .header__active-serch:hover{
           cursor: pointer;
         }
@@ -333,6 +337,10 @@
                  align-items: center;
                  background-position: left 10px top 50%;
              }
+             .footer__colum:nth-child(3),
+              .header__list {
+              display: none;
+          }
              .card__card-content {
                  max-width: 100%;
              }
