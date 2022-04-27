@@ -337,8 +337,8 @@
                  align-items: center;
                  background-position: left 10px top 50%;
              }
-             .footer__colum:nth-child(3),
-              .header__list {
+             .footer__colum:nth-child(3)
+               {
               display: none;
           }
              .card__card-content {
