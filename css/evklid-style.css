@@ -246,6 +246,11 @@ img {
 
 
 /*----->GENERAL-STYLES<-----//////////////////////////////////////*/
+main * {
+  z-index: 5;
+
+}
+
 
 .swiper {
     width: 100%;
@@ -253,7 +258,7 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: 0 !important;
     background: url(../img/sl2.jpg) ;
     background-size: cover;
     display: flex;
@@ -436,6 +441,7 @@ body .chapter {
     margin-bottom: 24px;
     font-family: 'MonseratexBold';
     object-fit: cover;
+    position: absolute;
 }
 
 .main-block__subtitle {
@@ -446,6 +452,8 @@ body .chapter {
     max-width: 790px;
     margin-bottom: 90px;
     font-family: 'MonseratBold';
+    position: absolute;
+    top: 295px;
 }
 
 .main-block__btn {
@@ -453,6 +461,8 @@ body .chapter {
     font-weight: 700;
     font-size: 23.4581px;
     line-height: 29px;
+    position: absolute;
+    top: 444px;
 }
 
 .main {}
