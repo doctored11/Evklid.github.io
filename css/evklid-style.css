@@ -114,7 +114,7 @@ img {
   top:20%;
   right: 3.5%;
 
-  z-index: 4 !important;
+
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
@@ -160,6 +160,8 @@ img {
   }
 
 .header {
+  z-index: 9;
+
     max-height: var(--header-hight);
     height: var(--header-hight);
     content: '';
@@ -174,8 +176,9 @@ img {
 }
 
 .header * {
-    z-index: 2;
+    z-index: 9;
 }
+
 
 .header__container {
     max-height: var(--header-hight);

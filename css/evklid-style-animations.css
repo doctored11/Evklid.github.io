@@ -56,7 +56,9 @@
              transform: scaleY(0);
              transition: transform .4s;
          }
-
+         :focus-visible {
+           outline-color: var(--main-accent-color);
+         }
          .header__item:focus {
              outline: 2px var(--main-accent-color) solid;
              outline-offset: 1px;
@@ -348,6 +350,7 @@
                  max-width: 100%;
              }
 
+
              .footer__colum:nth-child(2) {
                  width: 680px;
                  padding-left: 0px;
@@ -364,6 +367,9 @@
           .footer__colum:nth-child(3),
           .header__list {
               display: none;
+          }
+          .main-block__subtitle{
+            top: 335px;
           }
              .info__description {
                  max-height: none;
@@ -570,6 +576,7 @@
          @media (max-width:1000px) {
              .header {
                  width: 100%;
+                 z-index: 10;
              }
              .header__search-block{
                top: 5px;
@@ -663,11 +670,34 @@
              .footer__media {
                  margin-bottom: 80px;
              }
+             .main-block__subtitle{
+               top: 50%;
+             }
 
 
          }
 
-         @media (max-width: 620px) {
+         @media (max-width: 635px) {
+          .main-block__title{
+            left: 50%;
+            transform: translate(-50%);
+            top: 10%;
+            max-width: 90%;
+            min-width: 70%;
+          }
+          .main-block__subtitle{
+            top: 28%;
+            max-width: 75%;
+            left: 50%;
+            transform: translate(-50%);
+          }
+          .main-block__btn{
+            top: 60%;
+            left: 50%;
+            transform: translateX(-50%);
+
+          }
+
              .main-block {
                  background: url(../img/small-tel-main.jpg);
              }
@@ -936,3 +966,19 @@
                  align-items: center
              }
          }
+         @media (max-width: 346px) {
+          .main-block__title{
+
+            top: 7%;
+
+          }
+          .main-block__subtitle{
+            top: 32%;
+          }
+          .main-block__btn{
+            top: 66%;
+          }
+          .header__search-block, .header__search-block *{
+            z-index: 11;
+          }
+        }
