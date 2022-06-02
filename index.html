@@ -1,358 +1,370 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/normalize.css">
-   <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="css/media.css">
-
-   <title>Document</title>
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500&family=Montserrat:wght@200;700&display=swap" rel="stylesheet">
-
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500&family=Montserrat:wght@200;700&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="img/Frame290.svg" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/> -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/evklid-style.css">
+    <link rel="stylesheet" href="css/evklid-style-animations.css">
 </head>
-<body>
-   <header class="header">
-      <div class="header__burger burger">
-          <div class="burger__line"></div>
-          <div class="burger__line"></div>
-          <div class="burger__line"></div>
-      </div>
-      <a href="#" class="logo header__logo"></a>
-      <ul class="header__nav-list">
-         <li class="header__nav-item" tabindex="0">Home</li>
-         <li class="header__nav-item" tabindex="0">Pages</li>
-         <li class="header__nav-item" tabindex="0">Products</li>
-         <li class="header__nav-item" tabindex="0">Blog</li>
-         <li class="header__nav-item" tabindex="0">Shop</li>
-         <li class="header__nav-item" tabindex="0">Contact</li>
-         
-      </ul>
-      <input class="header-search" placeholder="Search">
-      <div class="header__user-menu">
-         <ul class="header__user-list">
-          <li class="header__user-item" tabindex="0" ><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Cart</title><circle cx="176" cy="416" r="16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="400" cy="416" r="16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M48 80h64l48 272h256"/><path d="M160 288h249.44a8 8 0 007.85-6.43l28.8-144a8 8 0 00-7.85-9.57H128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg> </li>
-          <li class="header__user-item" tabindex="0" ><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Person</title><path d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg></li>
-         <li class="header__user-item" tabindex="0" ><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Card</title><rect x="48" y="96" width="416" height="320" rx="56" ry="56" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="60" d="M48 192h416M128 300h48v20h-48z"/></svg></li>  
-         </ul>
-      </div>
-   </header>
-   <main class="main">
-      <!--  -->
-<div class="main__hero-block hero">
-<div class="hero__swiper swiper">
-   <div class="hero__content-block">
-   <div class="hero__text-block">
 
-   <h2 class="hero__heading">PS4 V2 
-      DualShock 4</h2>
-   <p class="hero__paragraph">
-      wireless controller for playStation 4
-      (compatibilityCentric)
-   </p>
-   <h3 class="hero__coast"> ₹2999</h3>
-   </div>
+<body class="">
+    <div class="header">
+        <header class="header__container">
+            <div class="header__burger  ">
+                <button  class="header__burger-ico " aria-label="открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
 
-   <button class="hero__buy-btn"> <p> Buy Now</p></button>
-   <div class="hero__bunner-content">
-<img src="sourse/CONTROLLER.png" alt="" class="hero__main-img">
-<img src="sourse/sale50%.png" alt="" class="hero__sale-ico">
-
-   </div>
-</div>
-</div>
-</div>
-<!--  -->
-<section class="main__products products">
-   <div class="products__feature feature">
-      <div class="frame">
-         <h3 class="feature__heading small-heading"> feature products</h3>
-         <ul class="feature__card-list">
-      
-         <li  tabindex="0" class="feature__card card card--pink">
-            <img src="sourse/laptops.png" alt="" class="card__logo">
-               <h3 class="card__heading">Laptops</h3>
-         </li>
-         <li tabindex="0"  class="feature__card card card--pink ">
-            <img src="sourse/Headset.png" alt="" class="card__logo">
-               <h3 class="card__heading">HeadPhones</h3>
-         </li>
-         <li  tabindex="0" class="feature__card card card--pink">
-            <img src="sourse/motherBoard.png" alt="" class="card__logo">
-               <h3 class="card__heading">MotherBoards</h3>
-         </li></ul>
-      </div>
-   
-   </div>
-   <div class="products__latest latest">
-      <div class="frame">
-         <h3 class="small-heading offer__heading">Leatest Products</h3>
-         <ul class="tab-fealter latest__tab">
-            <li class="tab-fialter__item"> 
-            
-            </li>
-            <li class="tab-fialter__item"> 
-            
-            </li>
-            <li class="tab-fialter__item"> 
-            
-            </li>
-            <li class="tab-fialter__item"> 
-            
-            </li>
-         </ul>
-         <ul class="products__cards cards-grid">
-            <li  tabindex="0" class="products__card card card--pink">
-               <img src="sourse/mouse.png" alt="" class=" card__logo card__logo--product">
-               <h3 class="card__heading">G502 Gaming Mouse</h3>
-               <p class="card__price">299₽</p>
-            </li>
-            <li  tabindex="0" class="products__card card card--pink">
-               <img src="sourse/legion.png" alt="" class=" card__logo card__logo--product">
-               <h3 class="card__heading">Lenovo Legion 5 Pro</h3>
-               <p class="card__price">299₽</p>
-            </li>
-            <li  tabindex="0" class="products__card card card--pink">
-               <img src="sourse/ps 5.png" alt="" class=" card__logo card__logo--product">
-               <h3 class="card__heading">Playstation 5</h3>
-               <p class="card__price">299₽</p>
-            </li>
-            <li  tabindex="0" class="products__card card card--pink">
-               <img src="sourse/Headset2.png" alt="" class=" card__logo  card__logo--product">
-               <h3 class="card__heading">Wireless HeadPhone</h3>
-               <p class="card__price">299₽</p>
-            </li>
-            <li  tabindex="0" class="products__card card card--pink">
-               <img src="sourse/oculus.png" alt="" class=" card__logo card__logo--product">
-               <h3 class="card__heading">Oculus Quest 2</h3>
-               <p class="card__price">299₽</p>
-            </li>
-            <li  tabindex="0" class="products__card card card--pink">
-               <img src="sourse/XboxC.png" alt="" class=" card__logo card__logo--product">
-               <h3 class="card__heading">XBOX SERIES X CONTROLLER</h3>
-               <p class="card__price">299₽</p>
-            </li>
-         </ul>
-      </div>
-   </div>
-
-</section>
-<section class="offer ">
-   <div class="frame">
-   <h3 class="small-heading offer__heading">Leatest Products</h3>
-      <ul class=" cards-grid offer__cards ">
-         <li  tabindex="0"  class="card card--white offer__card">
-            <h3 class="card__offer-name"> Free Shiping 
-            
-            </h3>
-            <p class="card__description-offer"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ducimus dolor ab. A id eius enim in dicta nemo error non numquam dolor deleniti, animi quidem unde sunt eos sed.</p>
-         </li>
-         <li  tabindex="0" class="card card--white offer__card">
-            <h3 class="card__offer-name"> Exclusiv Deals</h3>
-            <p class="card__description-offer"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ducimus dolor ab. A id eius enim in dicta nemo error non numquam dolor deleniti, animi quidem unde sunt eos sed.</p>
-         </li>
-         <li tabindex="0"  class="card card--white offer__card">
-            <h3 class="card__offer-name"> Quality Product</h3>
-            <p class="card__description-offer"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ducimus dolor ab. A id eius enim in dicta nemo error non numquam dolor deleniti, animi quidem unde sunt eos sed.</p>
-         </li>
-         <li  tabindex="0" class="card card--white offer__card">
-            <h3 class="card__offer-name"> 24/7 Support</h3>
-            <p class="card__description-offer"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ducimus dolor ab. A id eius enim in dicta nemo error non numquam dolor deleniti, animi quidem unde sunt eos sed.</p>
-         </li>
-      </ul>
-   </div>
-</section>
-<section class="trend main__trend">
-   <div class="frame">
-   <h3 class="small-heading trend__heading">Trending Products</h3>
-   <ul class="trend__cards cards-grid">
-   <li tabindex="0" class="trend__card card card--pink">
-      <img src="sourse/oculus_quest_2_64gb_gafas_realidad_virtual_01_l-removebg-preview 1.png" alt="" class=" card__logo card__logo--product">
-      <h3 class="card__heading">Wireless Headset</h3>
-      <p class="card__price">299₽</p>
-   </li>
-      <li tabindex="0" class="trend__card card card--pink">
-         <img src="sourse/XboxC.png" alt="" class=" card__logo card__logo--product">
-         <h3 class="card__heading">XBOX SERIES X CONTROLLER</h3>
-         <p class="card__price">299₽</p>
-      </li>
-      <li tabindex="0"  class="trend__card card card--pink">
-         <img src="sourse/ps5gamep.png" alt="" class=" card__logo card__logo--product">
-         <h3 class="card__heading">PS4 V2  DualShock 4</h3>
-         <p class="card__price">299₽</p>
-      </li>
-   </ul>
-   </div>
-
-</section>
-<section class="blog main__blog">
-   <div class="frame">
-   <h3 class="small-heading blog__heading">Leatest Blog</h3>
-   <ul class="blog__list">
-      <li  tabindex="0" class="blog__item card  card--white ">
-         <div class="blog__content-part">
-            <div class="blog__data-info">
-               <p class="blog__autor">Mohit Sign</p>
-               <p class="blog__date">21 January,2022</p>
+                </button>
             </div>
-            <h3 class="blog__blog-name">Top esssential Trends in 2022</h3>
-            <p class="blog__blog-descr">NO STRINGS WITH THESE WIRELESS
-               HEADPHONE
-               </p>
-            <a href="http://" class="blog__read-more">Read More</a>
-         </div>
-      </li>
-      <li  tabindex="0" class="blog__item card  card--white ">
-         <div class="blog__content-part">
-            <div class="blog__data-info">
-               <p class="blog__autor">Mohit Sign</p>
-               <p class="blog__date">21 January,2022</p>
+            <div class="header__logo-box">
+                <img class="header__logo" src="img/Logo.svg" alt="Логотип компании">
             </div>
-            <h3 class="blog__blog-name">Top esssential Trends in 2022</h3>
-            <p class="blog__blog-descr">NO STRINGS WITH THESE WIRELESS
-               HEADPHONE
-               </p>
-            <a href="http://" class="blog__read-more">Read More</a>
-         </div>
-      </li>
-      <li  tabindex="0" class="blog__item card  card--white ">
-         <div class="blog__content-part">
-            <div class="blog__data-info">
-               <p class="blog__autor">Mohit Sign</p>
-               <p class="blog__date">21 January,2022</p>
+
+            <div class="header__navigation  ">
+                <div class="header__drop-down-menu ">
+                    <ul class="header__list">
+                        <li class="header__list-menu"> <a href="#" class="header__item"> О нас</a>
+                        </li>
+                        <li class="header__list-menu"> <a href="#" class="header__item"> Проекты</a>
+                        </li>
+                        <li class="header__list-menu"> <a href="#" class="header__item"> Этапы</a>
+                        </li>
+                        <li class="header__list-menu"> <a href="#" class="header__item"> Отзывы</a>
+                        </li>
+                        <li class="header__list-menu"> <a href="#" class="header__item"> Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="header__search search" aria-label = "поиск по странице">
+
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="7.56126" height="1.89031" transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6062 17.3762)" fill="#333333"/>
+                <path d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z" stroke="#333333" stroke-width="2"/>
+                </svg>
+              </button>
+
+
+
+
+
+                <!--  -->
+                <div class="header__search-block  search-hidden">
+                  <button class="header__search-close search" aria-label = "закрыть поиск">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="8.95386" y="7.30435" width="11.6645" height="2.33291" transform="rotate(45 8.95386 7.30435)" fill="#999999"/>
+                      <rect x="7.30432" y="15.5524" width="11.6645" height="2.33291" transform="rotate(-45 7.30432 15.5524)" fill="#999999"/>
+                      <circle cx="12" cy="12" r="11" stroke="#999999" stroke-width="2"/>
+                      </svg>
+
+                  </button>
+
+                  <button class="header__active-serch " aria-label = "поиск">
+                    <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="7.56126" height="1.89031" transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6062 17.3762)" fill="#333333"/>
+                    <path d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z" stroke="#333333" stroke-width="2"/>
+                    </svg>
+                  </button>
+                  <input class="search__input" name="searchinfo" placeholder="Что будем искать? " type="search">
+
+                <!--  -->
+
+
+
+
+              </div>
             </div>
-            <h3 class="blog__blog-name">Top esssential Trends in 2022</h3>
-            <p class="blog__blog-descr">NO STRINGS WITH THESE WIRELESS
-               HEADPHONE
-               </p>
-            <a href="http://" class="blog__read-more">Read More</a>
-         </div>
-      </li>
-   </ul>
-   </div>
-</section>
-<footer class="footer"> 
-   <div class="frame">
-         <ul class="footer__main-content">
-            <li class="footer__colum">
-                <a href="#" class="logo footer__logo"></a>
-                <p class="footer__paragraph"> Subscribe to email alerts. We promise not to spam your
-                  inbox.</p>
-                <div class="mail">
-                <input class="email-input" type="text" placeholder="Email Address*">
-                <button class="subscribe"> SUBSCRIBE </button>
+        </header>
+    </div>
+    <!-- <div class="frame-block"> -->
+    <main class="main ">
 
-               </div>
-            </li>
-            <li class="footer__colum footer__menu-list ">
-               <h3 class="footer__colum-heading"> Shop</h3>
-                  <ul class="footer__menu-links footer__menu">
-                     <li tabindex="0"  class="footer__menu-link">Laptops</li>
-                     <li tabindex="0"  class="footer__menu-link">Wireless Headphones</li>
-                     <li tabindex="0"  class="footer__menu-link">MotherBoards</li>
-                     <li tabindex="0"  class="footer__menu-link">Controllers</li>
-                     <li tabindex="0"  class="footer__menu-link">Wireless Headsets</li>
-                     <li tabindex="0"  class="footer__menu-link">Jot Sticks</li>
-                     <li tabindex="0"  class="footer__menu-link">PlayStations</li>
-                     <li tabindex="0"  class="footer__menu-link">Gaming Mouse</li>
-                     <li tabindex="0"  class="footer__menu-link">Oculus Quest </li>
-                     <li  tabindex="0" class="footer__menu-link">Gift Card</li>
-                     <li  tabindex="0" class="footer__menu-link">Rock In India</li>
-                     <li  tabindex="0" class="footer__menu-link">Earn Rs.100</li>
-                  </ul>
-               
-            </li>
-            <li class="footer__colum footer__menu-list ">
-               <h3 class="footer__colum-heading"> HELP</h3>
-                  <ul class="footer__menu-links footer__menu">
-                     <li  tabindex="0"  class="footer__menu-link">Track Your Order</li>
-                     <li tabindex="0"  class="footer__menu-link">Warranty & Support</li>
-                     <li  tabindex="0" class="footer__menu-link">Return Policy</li>
-                     <li  tabindex="0" class="footer__menu-link">Service Centers</li>
-                     <li  tabindex="0" class="footer__menu-link">Bulk Orders</li>
-                     <li  tabindex="0" class="footer__menu-link">FAQs</li>
-                     <li  tabindex="0" class="footer__menu-link">Why Buy Direct</li>
-                 </ul>
-             
-            </li>
-            <li class="footer__colum footer__menu-list ">
-               <h3 class="footer__colum-heading"> HELP</h3>
-                  <ul class="footer__menu-links footer__menu">
-                     <li  tabindex="0" class="footer__menu-link">About Us</li>
-                     <li tabindex="0"  class="footer__menu-link">News</li>
-                     <li tabindex="0"  class="footer__menu-link">Read Our Blog</li>
-                     <li  tabindex="0" class="footer__menu-link">High5heads</li>
-                     <li  tabindex="0" class="footer__menu-link">Our Partners</li>
-                     <li  tabindex="0" class="footer__menu-link">Terms of Service</li>
-                     <li  tabindex="0" class="footer__menu-link">Privarcy Policy</li>
-                     <li  tabindex="0" class="footer__menu-link">Partner Offers T&Cs</li>
-                  </ul>
-               
-            </li>
-         </ul>
-         <div class="special-info">
-            <div>
-            <ul class="footer__social-media">
-               <li  tabindex="0" class="social__profile"><a tabindex="-1"  href="#">
-                  <svg   xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Logo Instagram</title><path d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z"/><path d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z"/></svg>
-               </a>
-               </li>
-               <li  tabindex="0" class="social__profile"><a tabindex="-1"  href="#">
-                  <svg   xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Logo Youtube</title><path d="M508.64 148.79c0-45-33.1-81.2-74-81.2C379.24 65 322.74 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149 1 184.59-.06 220.19 0 255.79q-.15 53.4 3.4 106.9c0 45 33.1 81.5 73.9 81.5 58.2 2.7 117.9 3.9 178.6 3.8q91.2.3 178.6-3.8c40.9 0 74-36.5 74-81.5 2.4-35.7 3.5-71.3 3.4-107q.34-53.4-3.26-106.9zM207 353.89v-196.5l145 98.2z"/></svg>
-               </a>
-               </li>
-               <li tabindex="0"  class="social__profile"><a tabindex="-1"  href="#">
-                  <svg   xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Logo Facebook</title><path d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16 24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31z" fill-rule="evenodd"/></svg>
-               </a>
-               </li>
-               <li  tabindex="0" class="social__profile"><a tabindex="-1"  href="#">
-                  <svg   xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Logo Vk</title><path d="M484.7 132c3.56-11.28 0-19.48-15.75-19.48h-52.37c-13.21 0-19.31 7.18-22.87 14.86 0 0-26.94 65.6-64.56 108.13-12.2 12.3-17.79 16.4-24.4 16.4-3.56 0-8.14-4.1-8.14-15.37V131.47c0-13.32-4.06-19.47-15.25-19.47H199c-8.14 0-13.22 6.15-13.22 12.3 0 12.81 18.81 15.89 20.84 51.76V254c0 16.91-3 20-9.66 20-17.79 0-61-66.11-86.92-141.44C105 117.64 99.88 112 86.66 112H33.79C18.54 112 16 119.17 16 126.86c0 13.84 17.79 83.53 82.86 175.77 43.21 63 104.72 96.86 160.13 96.86 33.56 0 37.62-7.69 37.62-20.5v-47.66c0-15.37 3.05-17.93 13.73-17.93 7.62 0 21.35 4.09 52.36 34.33C398.28 383.6 404.38 400 424.21 400h52.36c15.25 0 22.37-7.69 18.3-22.55-4.57-14.86-21.86-36.38-44.23-62-12.2-14.34-30.5-30.23-36.09-37.92-7.62-10.25-5.59-14.35 0-23.57-.51 0 63.55-91.22 70.15-122" fill-rule="evenodd"/></svg>
-               </a>
-               </li>
-               <li tabindex="0"  class="social__profile"><a tabindex="-1"  href="#">
-                  <svg   xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Logo Github</title><path d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 003.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 01-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0025.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 015-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 01112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 015 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 004-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z"/></svg>
-               </a>
-               </li>
-            </ul>
-            <div class="footer__pay-variable">
-               <img src="sourse/image 35.png">
+        <div class="frame-block ">
+
+            <div class="main-block ">
+                <h1 class="main-block__title">
+                    Проектные решения любой сложности
+                </h1>
+
+                <div class="swiper">
+
+                    <div class="swiper-wrapper" tabindex="-1">
+                        <!-- Slides -->
+                        <div class="swiper-slide" aria-label="1 / 3" role="group"  tabindex="-1" > </div>
+                        <div class="swiper-slide" aria-label="2 / 3" role="group"  tabindex="-1" > </div>
+                        <div class="swiper-slide" aria-label="3 / 3" role="group"  tabindex="-1" > </div>
+
+                    </div>
+                    <div class="swiper-pagination">
+                      <span class="swiper-pagination-bullet swiper-pagination-bullet-active "   aria-label="Go to slide 1"  role="button" ></span>
+                      <span class="swiper-pagination-bullet"   aria-label="Go to slide 2"  role="button" ></span>
+                      <span class="swiper-pagination-bullet"   aria-label="Go to slide 3"  role="button" ></span>
+                    </div>
+
+                </div>
+
+                <p class="main-block__subtitle">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+                <button class="btn main-block__btn">
+                  Заказать расчёт
+            </button>
             </div>
-         </div>
-         <div class="special-info__download-block">
-            <h3 class="footer__download-heading">DOWNLOAD THE APP</h3>
-            <a href="#" class="download">
-                        <img src="sourse/image 36.png">
-            </a>
-            <a href="#" class="download">
-                  <img src="sourse/image 37.png">
-            </a>
-         </div>
-
-         </div>
 
 
+        </div>
 
-   </div>
-</footer>
+        <section class="info chapter">
+            <div class="frame-block">
+                <h2 class="heading info__heading">О нас</h2>
+                <p class="description-paragraph info__description"> Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей
+                    могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный
+                    прототип будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению
+                    качества экспериментов.</p>
+                <div class="info__cards">
+                    <div class="card info__card info__card_main">
+                        <div class="card__footer">
+                            <p class="card__subtitle">Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.</p>
+                            <a href="" class="btn info__btn"> Подробнее </a>
+                        </div>
+
+                    </div>
+                    <div class="card info__card">
+                        <!-- <div class="card__card-img" alt=""></div> -->
+                        <div class="card__card-content">
+                            <h3 class="card__card-header subtitle ">Консультация с широким активом</h3>
+                            <p class="card__description description-paragraph">А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.</p>
+                        </div>
+                    </div>
+
+                    <div class="card info__card">
+                        <!-- <img class="card__card-img" src="../evklid/img/Frame12.svg" alt=""> -->
+                        <div class="card__card-content">
+                            <h3 class="card__card-header subtitle ">В своём стремлении повысить </h3>
+                            <p class="card__card-p description-paragraph">Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества. </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+        <section class="work chapter">
+            <div class="frame-block">
+                <h2 class="heading">Как мы работаем </h2>
+                <div>
+                    <ul class="work__steps tabs">
+                        <li class="work__step"> <button class="work__button-step tabs__btn tabs__btn--active" data-path="one"> 1 шаг </button></li>
+                        <li class="work__step"> <button class="work__button-step tabs__btn" data-path="two"> 2 шаг </button></li>
+                        <li class="work__step"> <button class="work__button-step tabs__btn" data-path="three"> 3 шаг </button></li>
+                        <li class="work__step"> <button class="work__button-step tabs__btn" data-path="four"> 4 шаг </button></li>
+                    </ul>
+                </div>
+                <div class="work__card">
+                    <div class="work__content-block">
+                        <!-- tabs -->
+                        <div class="tabs-content tabs-content--active" data-target="one">
+                            <h3 class="work__subtitle subtitle">Проводим консультацию</h3>
+                            <p class="work__description description-paragraph">Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями.
+                                А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников,
+                                современные исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные
+                                выводы, разумеется, призваны к ответу.</p>
+                        </div>
+                        <div class="tabs-content   " data-target="two">
+                            <h3 class="work__subtitle subtitle">Составляем смету </h3>
+                            <p class="work__description description-paragraph">Внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также представители
+                                современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования
+                                подвергнуты целой серии независимых исследований.</p>
+                        </div>
+                        <div class="tabs-content " data-target="three">
+                            <h3 class="work__subtitle subtitle">Привлекаем подрядчиков </h3>
+                            <p class="work__description description-paragraph">Идейные соображения высшего порядка, а&nbsp;также новая модель организационной деятельности требует анализа прогресса профессионального сообщества. Высокий уровень вовлечения представителей целевой аудитории является четким
+                                доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от&nbsp;дальнейших направлений развития. Разнообразный и&nbsp;богатый опыт говорит нам, что новая модель организационной деятельности
+                                говорит о&nbsp;возможностях системы массового участия. Принимая во&nbsp;внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнить важные задания по&nbsp;разработке
+                                прогресса профессионального сообщества.</p>
+                        </div>
+                        <div class="tabs-content " data-target="four">
+                            <h3 class="work__subtitle subtitle">Инспектируем все этапы работ </h3>
+                            <p class="work__description description-paragraph">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от&nbsp;дальнейших направлений развития. Разнообразный
+                                и&nbsp;богатый опыт говорит нам, что новая модель организационной деятельности говорит о&nbsp;возможностях системы массового участия. Принимая во&nbsp;внимание показатели успешности, постоянное информационно-пропагандистское
+                                обеспечение нашей деятельности позволяет.</p>
+                        </div>
+                        <!--  -->
+                        <div class="work__btns">
+                            <a href="" class="btn work__btn"> Подробнее </a >
+                             <a href="" class="btn  work__btn  work__btn_black"> Договор </a >
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </section>
+            <section class="qwestions chapter">
+              <div class="frame-block">
+                <h2 class="heading">Часто задаваемые вопросы</h2>
+
+                <ul class="qwestions__list  accordion">
+                    <li class="qwestions__item ac "  tabindex="0"  >
+                        <h3 class="ac-header" tabindex="-1"> Из чего формируется конечная стоимость проекта? </h3>
+                        <p class="ac-trigger"> Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к&nbsp;новым свершениям, которые, в&nbsp;свою очередь, должны быть своевременно верифицированы. Но&nbsp;высококачественный прототип будущего проекта является качественно новой ступенью первоочередных требований. А&nbsp;ещё некоторые особенности внутренней политики, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и&nbsp;морали. И&nbsp;нет сомнений, что явные признаки победы институционализации призывают нас к&nbsp;новым свершениям, которые, в&nbsp;свою очередь, должны быть указаны как претенденты на&nbsp;роль ключевых факторов.
+                          Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть призваны к&nbsp;ответу. Явные признаки победы институционализации набирают популярность среди определенных слоев населения, а&nbsp;значит, должны быть объединены в&nbsp;целые кластеры себе подобных. Банальные, но&nbsp;неопровержимые выводы, а&nbsp;также многие известные личности призывают нас к&nbsp;новым свершениям, которые, в&nbsp;свою очередь, должны быть представлены в&nbsp;исключительно положительном свете.</p>
+                            <div class="qwestion__img-block">
+                        <svg   class="qwestion__svg"  width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
+                            </svg>
+                            </div>
+
+                    </li>
+                    <li class="qwestions__item  ac " tabindex="0" >
+                        <h3  class="ac-header"  tabindex="-1"> У меня есть свой проект. Сможем ли мы его доработать / реализовать? </h3>
+                        <p class="ac-trigger"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, deserunt nostrum doloremque expedita error ut quos facere distinctio eveniet quia corrupti porro culpa, nesciunt ab optio impedit. Explicabo, nam voluptates.</p>
+
+                        <div class="qwestion__img-block">
+                        <svg  class="qwestion__svg"   width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
+                            </svg>
+                            </div>
+
+                    </li>
+                    <li class="qwestions__item  ac " tabindex="0" >
+                        <h3 class="ac-header" > Я выбираю между разными компаниями. В чём ваше отличие? </h3>
+                        <p class="ac-trigger"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, deserunt nostrum doloremque Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem est dicta totam doloribus? Labore ea, illum at explicabo obcaecati repellendus doloremque culpa, deleniti deserunt Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, quaerat? Aspernatur id assumenda at officia ut aliquam consequuntur blanditiis tempora expedita ratione! Ratione est dolorem natus illum, eaque exercitationem praesentium! temporibus fugiat voluptas natus enim voluptatibus.
+                          expedita error ut quos facere distinctio eveniet quia corrupti porro culpa, nesciunt ab optio impedit. Explicabo, nam voluptates.</p>
+
+                            <div class="qwestion__img-block" >
+                        <svg   class="qwestion__svg"  width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
+                            </svg>
+                            </div>
+                    </li>
+                    <li class="qwestions__item  ac " tabindex="0"  >
+
+                        <h3 class="ac-header" > Могу ли я делегировать вам работу / согласование с подрядчиком / организацией? </h3>
+                        <p class="ac-trigger"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, deserunt nostrum doloremque expedita error ut quos facere distinctio eveniet  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti fugit obcaecati veritatis, quasi dolores delectus consectetur cum alias nemo illo ipsum unde dolore quis illum reprehenderit expedita, enim velit? quia corrupti porro culpa, nesciunt ab optio impedit. Explicabo, nam voluptates.</p>
+
+                        <div class="qwestion__img-block">
+                        <svg   class="qwestion__svg"  width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
+                            </svg>
+                            </div>
+                    </li>
+                    <li class="qwestions__item ac" tabindex="0" >
+                        <h3 class="ac-header" > Могу ли я вернуть деньги на каком-либо из этапов работ? </h3>
+                        <p class="ac-trigger"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, deserunt nostrum doloremque expedita error ut quos facere distinctio eveniet quia corrupti porro culpa, nesciunt ab optio impedit. Explicabo, nam voluptates.</p>
+
+                        <div class="qwestion__img-block">
+                        <svg   class="qwestion__svg"  width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC"/>
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="#666666"/>
+                          </svg>
+                          </div>
+                    </li>
+                </ul>
+              </div>
+            </section>
+        </main>
+    <!-- </div> -->
+    <footer class="footer">
+        <div class="frame-block">
+            <div class="footer__about">
+                <div class="footer__grid">
+                    <div class="footer__colum">
+                        <img class="footer__logo_white" src="img/Logow.svg" alt="Логотип компании">
+                        <ul class="footer__links">
+                            <li class="footer__info-link"     >  <a href="#"> О нас  </a> </li>
+                            <li class="footer__info-link"     >  <a href="#"> Проекты  </a> </li>
+                            <li class="footer__info-link"     >  <a href="#"> Отзывы  </a> </li>
+                            <li class="footer__info-link"     >  <a href="#"> Договор оферты  </a> </li>
+                            <li class="footer__info-link"     >  <a href="#"> Договор подряда  </a> </li>
+                            <li class="footer__info-link"     >  <a href="#"> Конфиденциальность  </a> </li>
+                            <li class="footer__info-link"   >  <a href="#"> Партнёрское соглашение  </a> </li>
+                        </ul>
+                        <ul class="footer__media">
+                            <li class="footer__media-links" aria-label = "Социальная сеть для связи">
+                                <a href="" aria-label = "facebook">
+                                    <svg alt = " Мы в facebook" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M30 0C13.5 0 0 13.5241 0 30.1807C0 45.241 10.98 57.741 25.32 60V38.9157H17.7V30.1807H25.32V23.5241C25.32 15.9639 29.79 11.8072 36.66 11.8072C39.93 11.8072 43.3499 12.3795 43.3499 12.3795V19.8193H39.57C35.85 19.8193 34.68 22.1386 34.68 24.5181V30.1807H43.0199L41.6699 38.9157H34.68V60C41.7493 58.8791 48.1866 55.2576 52.8297 49.7893C57.4729 44.3211 60.016 37.3664 59.9999 30.1807C59.9999 13.5241 46.4999 0 30 0Z" fill="#7C7C7C"/>
+                                </svg>
+                                </a>
+                            </li>
+                            <li class="footer__media-links" aria-label = "Социальная сеть для связи">
+                                <a href="" aria-label = "Вконтакте">
+                                    <svg alt = " Мы в Вконтакте" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M30 0C13.432 0 0 13.4314 0 30C0 46.5686 13.432 60 30 60C46.568 60 60 46.5686 60 30C60 13.4314 46.568 0 30 0ZM45.2176 33.2446C46.6159 34.6103 48.0951 35.8957 49.3504 37.4026C49.9065 38.0692 50.4307 38.7585 50.8297 39.5337C51.3993 40.6392 50.8849 41.8515 49.8954 41.9171L43.7494 41.9159C42.162 42.0473 40.8988 41.4071 39.8339 40.3218C38.9837 39.457 38.195 38.5332 37.3762 37.6389C37.0416 37.2718 36.6893 36.9262 36.2695 36.6543C35.4316 36.1093 34.7036 36.2762 34.2236 37.1515C33.7344 38.0421 33.6227 39.0292 33.5761 40.0205C33.5092 41.4697 33.0721 41.8484 31.618 41.9165C28.5109 42.062 25.5628 41.5906 22.8227 40.0241C20.4055 38.6425 18.5346 36.6924 16.9043 34.4845C13.7297 30.1805 11.2984 25.4566 9.11386 20.597C8.6222 19.5026 8.98189 18.917 10.1893 18.8943C12.1952 18.8557 14.2011 18.8606 16.2071 18.8925C17.0234 18.9054 17.5636 19.3725 17.8772 20.1428C18.9612 22.8098 20.2901 25.3473 21.9554 27.7007C22.3992 28.3274 22.8522 28.9522 23.4973 29.3948C24.2093 29.8834 24.7519 29.7219 25.0877 28.9271C25.3025 28.4219 25.3952 27.8817 25.4418 27.3404C25.6014 25.486 25.6205 23.6323 25.3442 21.7854C25.1724 20.6296 24.5224 19.8832 23.3702 19.6647C22.7834 19.5536 22.8694 19.3363 23.1548 19.0011C23.6501 18.4217 24.1142 18.0632 25.0416 18.0632L31.9857 18.062C33.0801 18.2768 33.3256 18.7679 33.4742 19.8703L33.4803 27.5871C33.4674 28.0137 33.6945 29.2782 34.4606 29.5574C35.0744 29.76 35.4795 29.2677 35.8465 28.8792C37.5118 27.112 38.6983 25.0263 39.7608 22.8675C40.2298 21.9155 40.6343 20.9303 41.0271 19.9433C41.3193 19.2135 41.7735 18.8544 42.5972 18.8667L49.2841 18.8747C49.4811 18.8747 49.6812 18.8765 49.8764 18.9103C51.0034 19.103 51.3121 19.5879 50.9635 20.6873C50.4147 22.4145 49.3485 23.8533 48.3063 25.2958C47.1892 26.8401 45.9977 28.3304 44.8917 29.8815C43.8752 31.2994 43.9556 32.0133 45.2176 33.2446Z" fill="#7C7C7C"/>
+                              </svg>
+                                </a>
+                            </li>
+                            <li class="footer__media-links" aria-label = "Социальная сеть для связи">
+                                <a href="" aria-label = "соц сеть">
+                                    <svg alt = " Мы в соц сети " width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.2578 30C24.2578 33.1714 26.8286 35.7422 30 35.7422C33.1714 35.7422 35.7422 33.1714 35.7422 30C35.7422 26.8286 33.1714 24.2578 30 24.2578C26.8286 24.2578 24.2578 26.8286 24.2578 30Z" fill="#7C7C7C"/>
+                                <path d="M16.571 19.8403C16.8471 19.0923 17.2874 18.4153 17.8596 17.8596C18.4154 17.2874 19.0919 16.847 19.8404 16.571C20.4474 16.3352 21.3593 16.0546 23.0388 15.9781C24.8557 15.8953 25.4004 15.8774 30 15.8774C34.6001 15.8774 35.1448 15.8948 36.9612 15.9777C38.6407 16.0546 39.5531 16.3352 40.1596 16.571C40.9081 16.847 41.5851 17.2874 42.1404 17.8596C42.7126 18.4153 43.1529 19.0919 43.4294 19.8403C43.6652 20.4473 43.9458 21.3596 44.0222 23.0392C44.1051 24.8556 44.1229 25.4003 44.1229 30.0004C44.1229 34.6 44.1051 35.1447 44.0222 36.9616C43.9458 38.6411 43.6652 39.553 43.4294 40.16C43.1529 40.9084 42.713 41.585 42.1408 42.1407C41.5851 42.7129 40.9085 43.1533 40.1601 43.4293C39.5531 43.6655 38.6407 43.9461 36.9612 44.0226C35.1448 44.1054 34.6005 44.1228 30.0005 44.1228C25.3999 44.1228 24.8552 44.1054 23.0392 44.0226C21.3597 43.9461 20.4474 43.6655 19.8404 43.4293C18.338 42.8498 17.1506 41.6624 16.571 40.16C16.3353 39.553 16.0547 38.6411 15.9778 36.9616C15.8949 35.1447 15.8775 34.6 15.8775 30.0004C15.8775 25.4003 15.8949 24.8556 15.9778 23.0392C16.0542 21.3596 16.3348 20.4473 16.571 19.8403ZM30 38.8457C34.8857 38.8457 38.8463 34.8856 38.8463 29.9999C38.8463 25.1142 34.8857 21.1541 30 21.1541C25.1147 21.1541 21.1542 25.1142 21.1542 29.9999C21.1542 34.8856 25.1147 38.8457 30 38.8457ZM20.8044 22.8716C21.9461 22.8716 22.8717 21.946 22.8717 20.8044C22.8717 19.6627 21.9461 18.7371 20.8044 18.7371C19.6628 18.7371 18.7372 19.6627 18.7372 20.8044C18.7376 21.946 19.6628 22.8716 20.8044 22.8716Z" fill="#7C7C7C"/>
+                                <path d="M30 0C46.566 0 60 13.434 60 30C60 46.566 46.566 60 30 60C13.434 60 0 46.566 0 30C0 13.434 13.434 0 30 0ZM12.8773 37.1022C12.9607 38.936 13.2523 40.188 13.678 41.2839C14.5729 43.5979 16.4021 45.4271 18.7161 46.322C19.8116 46.7477 21.064 47.0389 22.8973 47.1227C24.7343 47.2064 25.3212 47.2266 29.9995 47.2266C34.6783 47.2266 35.2647 47.2064 37.1022 47.1227C38.9355 47.0389 40.188 46.7477 41.2834 46.322C42.4333 45.8894 43.4743 45.2115 44.3349 44.3349C45.211 43.4747 45.889 42.4333 46.3216 41.2839C46.7473 40.1884 47.0389 38.936 47.1222 37.1027C47.2069 35.2652 47.2266 34.6783 47.2266 30C47.2266 25.3217 47.2069 24.7348 47.1227 22.8978C47.0393 21.064 46.7482 19.812 46.3225 18.7161C45.8899 17.5667 45.2115 16.5253 44.3349 15.6651C43.4747 14.7885 42.4333 14.1106 41.2839 13.678C40.188 13.2523 38.936 12.9611 37.1022 12.8773C35.2652 12.7936 34.6783 12.7734 30 12.7734C25.3217 12.7734 24.7348 12.7936 22.8978 12.8778C21.064 12.9611 19.812 13.2523 18.7161 13.6775C17.5667 14.1101 16.5253 14.7885 15.6647 15.6651C14.7885 16.5257 14.1101 17.5667 13.678 18.7161C13.2518 19.812 12.9607 21.064 12.8769 22.8978C12.7931 24.7348 12.7734 25.3217 12.7734 30C12.7734 34.6783 12.7931 35.2652 12.8773 37.1022Z" fill="#7C7C7C"/>
+                                </svg>
+                                </a>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="footer__colum">
+
+                            <div class="footer__application">
+                                <h3 class="footer__heading">Оставить заявку</h3>
+                                <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="footer__forms">
+
+                                    <input name="evklid" type="hidden" value=" Форма обратной связи ">
+                                    <input class="footer__input footer__app-form" name="User-name" placeholder="Фамилия, имя и отчество*" type="text">
+                                    <input class="footer__input footer__app-form" name=" E-mail" placeholder="E-mail*" type="email" required>
+                                    <textarea class="footer__input footer__input_text-aria footer__app-form " name="Text-message" placeholder="Сообщение"></textarea>
+
+                                    <div class="footer__agreement">
+                                        <button type="submit" class="btn footer__btn">Отправить данные</button>
+                                        <div class="footer__check">
+                                            <input class="check__box" type="checkbox" required checked id="data-processing" />
+
+                                            <label class="check__label" for="data-processing">Согласен на обработку данных</label>
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="footer__colum">
+                            <div class="footer__info">
+                                <p class="footer__description">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом,
+                                    консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </footer>
+            <script type="module">
+                import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'; const swiper = new Swiper();
+            </script>
+            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+            <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
 
 
-   </main>
-   <script src="js/script.js"></script>
-   
+            <script src="js/script.js">
+            </script>
+
+
+
 </body>
+
 </html>
